@@ -1,2 +1,2 @@
 # Root
-my Root repository
+My root repository
