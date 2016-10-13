@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ThreadManagement">
+      <UniqueIdentifier>{4477be81-d202-439b-b200-d27ce107d8d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cng">
+      <UniqueIdentifier>{3e028e69-f69e-4e89-9cf5-77ce4ba6ad43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sha">
+      <UniqueIdentifier>{5f632a79-4701-4b8e-9287-873035db41e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scheduler.h">
+      <Filter>ThreadManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>ThreadManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>ThreadManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Cng.h">
+      <Filter>Cng</Filter>
+    </ClInclude>
+    <ClInclude Include="Sha.h">
+      <Filter>Sha</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scheduler.cpp">
+      <Filter>ThreadManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>ThreadManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>ThreadManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="Cng.cpp">
+      <Filter>Cng</Filter>
+    </ClCompile>
+    <ClCompile Include="Sha.cpp">
+      <Filter>Sha</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
